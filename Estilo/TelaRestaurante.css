@@ -1,0 +1,66 @@
+.sumir {
+	display: none !important;
+}
+
+.volta {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 18px;
+	cursor: pointer;
+}
+
+@media (max-width: 400px) {
+	.volta {
+		width: 75px;
+	}
+
+	.frente img {
+		min-width: 400px !important;
+	}
+}
+
+.frente img {
+	margin-top: 20px;
+  width: 50%;
+	min-width: 600px;
+	height: 200px;
+	border-radius: 10%;
+}
+
+.frente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center h3{
+	text-align: center;
+  margin-top: 2px;
+	display: flex;
+	justify-content: center;
+	font-weight: normal;
+	color: orange;
+	font-size: 20px;
+}
+
+table {
+    text-align: center;
+    width: 30%;
+    height: 20%;
+    background-color: black;
+    color: white;
+}
+
+.preços td, th{
+    background-color: orange;
+}
+
+footer {
+	margin-top: 10px;
+	color: green;
+}
+
+footer h1:first-child {
+	color: orange;
+}

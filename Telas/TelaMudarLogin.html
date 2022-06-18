@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Tem vaga?</title>
+  <meta charset="utf-8">
+  <link href="../Estilo/TelaMudarLogin.css" type="text/css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../imagens/favicon.ico" type="icon">
+</head>
+<body> 
+  <div class="form">
+      <h1> Tem vaga?</h1>
+      <img onclick="voltar()" class="volta" src="../imagens/back-arrow.png" alt="voltar">
+      <div class="container">
+        <span>Senha</span>
+        <input type="password" id="password" />
+        <span>Novo Username</span>
+        <input id="username" name="nome" />
+        <span>Confirmar Novo Username</span>
+        <input id="usernameConfirmation" name="nome" />
+      </div>
+  </div>
+  <div class="butaum">
+    <a class="mudar" href="./TelaMudarSenha.html" >Mudar Senha?</a>
+    <input class="confirmar" onclick="mudarLogin()" type="button" name="ação" value="Confirmar!">
+  </div>
+  <script src="../scripts/TelaMudarLogin.js"></script>
+</body>
+</html>

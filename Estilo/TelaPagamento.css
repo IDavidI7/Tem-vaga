@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	background-color: black;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif; 
+}
+
+.center{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    
+}
+
+.center input[type=text]{
+    margin-top: 10px;
+	width: 90%;
+	height: 33px;
+	border: 2px groove orange;
+	background-color: #e3e3e3;
+	outline: none;
+	font-size: 25px;
+}
+
+.frente img{
+	margin-top: 10px;
+    width: 80%;
+	border-radius: 10%;
+}
+
+.frente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+	margin-top: 2px;
+	display: flex;
+	justify-content: center;
+	font-weight: normal;
+	color: orange;
+	font-size: 40px;
+}
+
+.text{
+	margin-bottom: -10px;
+	margin-top: 15px;
+    color: orange;
+}
+
+.cartao{
+	display: flex;
+	justify-content: left;
+}
+
+.CVV input[type=text]{
+    width: 50px;
+}
+.alinhamento{
+    width: 400px;
+}
+.card{
+	width: 310px;
+}
+.voltar{
+	width: 100px;
+	height: 30px;
+	background-color: white;
+}
+
+footer{
+	margin-top: 10px;
+}
+.confirmar{
+	width: 100px;
+	height: 30px;
+	background-color: rgb(2, 255, 2);
+}
+
+.confirmar a{
+	background-color: rgb(2, 255, 2);
+	color: black;
+	text-decoration: none;
+}
+.confirmar a:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+.voltar:hover{
+	background-color: gray;
+	cursor: pointer;
+}
+
+.confirmar:hover{
+	background-color: green;
+	cursor: pointer;
+}
+.botao{
+	margin-top: 10px;
+	width: 90%;
+	height: 33px;
+	border: 2px groove orange;
+	background-color: #e3e3e3;
+	outline: none;
+	font-size: 25px;
+}
+

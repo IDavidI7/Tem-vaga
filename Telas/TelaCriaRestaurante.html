@@ -1,0 +1,41 @@
+
+<html lang="pt-br">
+
+<head>
+  <title>Tem vaga?</title>
+  <meta charset="utf-8">
+  <link href="../Estilo/TelaCriaRestaurante.css" type="text/css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../imagens/favicon.ico" type="icon">
+</head>
+
+<body>
+  <div class="form">
+      <h1> Tem vaga?</h1>
+      <h3> Encontre aqui!</h3>
+      <span>Nome do Restaurante</span>
+      <input id="name" name="login" />
+      <span>Endereço</span>
+      <input id="address" name="endereço" >
+      <span>URL da Imagem</span>
+      <input id="image" name="imagem" />
+      <div class="vagas" >
+        <span>Tipo de Vaga (Coberta/Descoberta)</span>
+        <input />
+        <span>Quantidade de vaga</span>
+        <input type="number" min=0 />
+      </div>
+      <img src="../imagens/plus.svg" onclick="adicionaInputVaga()" alt="adicionar">
+      <div class="branco" onclick="removeInputVaga()" >Remover</div>
+      <input onclick="cadastraRestaurante()" type="button" name="ação" value="Cadastrar Restaurante">
+  </div>
+  <!-- <div class="footer">
+    <a href="./Telas/TelaLogin.html">Já possui login?</a>
+  </div> -->
+  <script src="../scripts/TelaCriaRestaurante.js"></script>
+</body>
+
+</html>
