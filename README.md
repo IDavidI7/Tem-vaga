@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 # Tem-Vaga
-Project
-=======
-# Tem-vaga
->>>>>>> main
-
+Projeto feito na faculdade com o objetivo de aprender e desenviolver conhecimentos em HTML, CSS e JavaScript.
