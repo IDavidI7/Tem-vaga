@@ -2,6 +2,9 @@
 Projeto feito na faculdade com o objetivo de aprender e desenviolver conhecimentos em HTML, CSS e JavaScript.
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 ![Captura de tela 2023-03-07 180020](https://user-images.githubusercontent.com/102183014/223552176-644d4617-76a7-4d0a-97f2-e30b30a63d28.png)
 <br/>
 ![Captura de tela 2023-03-07 180026](https://user-images.githubusercontent.com/102183014/223552181-765342ff-535b-494b-b023-e1ab723da5af.png)
